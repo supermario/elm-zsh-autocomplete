@@ -2,8 +2,8 @@
 # Requires: Elm >= 0.19
 # Author: Mario Rogic (https://mario.net.au)
 
-_elm () {
-    local -a _1st_arguments
+_elm() {
+    local -a _1st_arguments _2nd_arguments
 
     _1st_arguments=($(elm autocomplete 1))
 
